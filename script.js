@@ -1,2 +1,4 @@
 "use strict";
-const simpleMultiplication = (number) => number * (number % 2 === 0 ? 8 : 9);
+function strCount(str, letter) {
+  return str.split(letter).length - 1;
+}
