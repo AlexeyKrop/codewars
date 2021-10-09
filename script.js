@@ -1,1 +1,3 @@
-const cockroachSpeed = (s) => Math.floor(s / 0.036);
+function twiceAsOld(dadYearsOld, sonYearsOld) {
+  return Math.abs(dadYearsOld - 2 * sonYearsOld);
+}
